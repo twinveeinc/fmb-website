@@ -1,0 +1,53 @@
+@media only screen and (max-width: 991px) {
+	.wsmenu-list {
+		overflow: scroll;
+		height: 100vh !important;
+	}
+}
+.slickmargin .slick-slide {
+	padding: 0 10px;
+}
+.slickmargin .slick-dots li button:before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	margin: 5px 7px;
+	background: #d6d6d6;
+	opacity: 1;
+	border-radius: 50%;
+}
+.slickmargin .slick-dots li.slick-active button:before {
+	background: #869791;
+}
+
+/*------------------------------------------*/
+/*   Counter Widget
+/*------------------------------------------*/
+
+/* Counter Widget */
+.counter-widget-container {
+	padding: 10px 20px;
+}
+.counter-widget-container h2 {
+	color: black;
+	font-family: 'Poppins', Sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+	line-height: 40px;
+}
+.counter-widget-container span {
+	color: var(--storm);
+	font-family: 'Heebo', Sans-serif;
+	font-size: 5em;
+	font-weight: 400;
+	line-height: 130px;
+}
+.counter-widget-container p {
+	color: #2a2a2a;
+	font-family: 'Poppins', Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	margin: 0 12px;
+	text-align: center;
+}
