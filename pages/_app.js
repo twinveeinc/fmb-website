@@ -21,7 +21,8 @@ function MyApp({Component, pageProps}) {
 		<VideoState>
 			<Head>
 				<title>
-					OLMO - Software, App, SaaS & Startup Landing Pages Pack{' '}
+					Fix My Boat - The First National Mobile Marine Service
+					Company.
 				</title>
 				<link
 					rel='shortcut icon'
