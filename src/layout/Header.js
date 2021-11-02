@@ -54,7 +54,7 @@ const Header = ({
 					<div className='wsmainwp clearfix'>
 						{/* HEADER LOGO */}
 						<div className='desktoplogo'>
-							<Link href='/demo-1'>
+							<Link href='/'>
 								<a className='logo-black'>
 									<img
 										src='/images/logo/FMB-fullcolor.png'
@@ -64,7 +64,7 @@ const Header = ({
 							</Link>
 						</div>
 						<div className='desktoplogo'>
-							<Link href='/demo-1'>
+							<Link href='/'>
 								<a className='logo-white'>
 									<img
 										src={`${
@@ -125,13 +125,13 @@ const Header = ({
 								</li>
 								{/* SIMPLE NAVIGATION LINK */}
 								<li className='nl-simple'>
-									<Link href='/pricing'>Contact</Link>
+									<Link href='/'>Contact</Link>
 								</li>
 								{/* SIMPLE NAVIGATION LINK */}
 								<li className='nl-simple'>
 									<Link
 										href={`${
-											singlePage ? '/faqs' : '#faqs-2'
+											singlePage ? '/faqs2' : '#faqs-2'
 										}`}
 									>
 										FAQs
@@ -198,33 +198,47 @@ const Header = ({
 								</li>
 								{/* HEADER BUTTON */}
 								<li className='nl-simple'>
-									<Link
-										href={`${
-											singlePage
-												? '/pricing'
-												: '#content-4'
-										}`}
+									{/* <Link
+										href='/book.housecallpro.com/book/Fix-My-Boat/771e1f703d06486fb2f339393a20388f?attribution=getstarted'
+										passHref={true}
+									> */}
+									<a
+										href='https://book.housecallpro.com/book/Fix-My-Boat/771e1f703d06486fb2f339393a20388f?attribution=getstarted'
+										className={`btn ${
+											btnCustomHover
+												? btnCustomHover
+												: 'btn-tra-white blue-hover'
+										} last-link`}
 									>
-										<a
-											className={`btn ${
-												btnCustomHover
-													? btnCustomHover
-													: 'btn-tra-white orange-red-hover'
-											} last-link`}
-										>
-											{getStartText
-												? 'Get Started'
-												: "Let's Started"}
-										</a>
-									</Link>
+										{getStartText
+											? 'Get Started'
+											: "Let's Started"}
+									</a>
+									{/* </Link> */}
 								</li>
-								{/* HEADER SOCIAL LINKS 													
-									<li class="nl-simple white-color header-socials ico-20 clearfix" >
-										<span><Link href="#" class="ico-facebook"><span class="flaticon-facebook"></span></Link></span>
-										<span><Link href="#" class="ico-twitter"><span class="flaticon-twitter"></span></Link></span>
-										<span><Link href="#" class="ico-instagram"><span class="flaticon-instagram"></span></Link></span>
-										<span><Link href="#" class="ico-dribbble"><span class="flaticon-dribbble"></span></Link></span>	
-									</li> */}
+								{/* HEADER SOCIAL LINKS
+								<li class='nl-simple white-color header-socials ico-20 clearfix'>
+									<span>
+										<Link href='#' class='ico-facebook'>
+											<span class='flaticon-facebook'></span>
+										</Link>
+									</span>
+									<span>
+										<Link href='#' class='ico-twitter'>
+											<span class='flaticon-twitter'></span>
+										</Link>
+									</span>
+									<span>
+										<Link href='#' class='ico-instagram'>
+											<span class='flaticon-instagram'></span>
+										</Link>
+									</span>
+									<span>
+										<Link href='#' class='ico-dribbble'>
+											<span class='flaticon-dribbble'></span>
+										</Link>
+									</span>
+								</li> */}
 							</ul>
 						</nav>
 					</div>
