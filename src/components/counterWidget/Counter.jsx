@@ -11,8 +11,8 @@ const Counter = () => {
 				<div className='container '>
 					<div className='row row-col lg-d-flex lg-justify-content-center'>
 						<div className='col-12 counter-widget-box1 col-lg-4 d-flex flex-column align-items-center'>
-							<h2>User Friendly App</h2>
-							<span className='test-color'>4.8/5</span>
+							<h2 className='text-volt'>User Friendly App</h2>
+							<span className='text-volt'>4.8/5</span>
 							<p>
 								Lorem ipsum dolor sit amet consectetur
 								adipisicing elit. Rem possimus ullam

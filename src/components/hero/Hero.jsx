@@ -1,4 +1,4 @@
-const Demo2Hero2 = () => {
+const Hero = () => {
 	return (
 		<section id='hero-2' className='bg-scroll hero-section division  '>
 			<div className='container'>
@@ -11,9 +11,10 @@ const Demo2Hero2 = () => {
 								Repair, Service, Fix Where Ever , When Ever
 							</h2>
 							{/* Text */}
-							<p className='p-xl grey-color'>
-								Enter your service address to get accurate
-								pricing and book your cleaning services.
+							<p className='p-lg storm-color'>
+								On Demand Mobile Boat Repair At your Home,
+								Dockside, or Marina Convenient, Friendly, Fair
+								and Effective.
 							</p>
 							{/* STORE BADGES */}
 							<div className='stores-badge'>
@@ -50,8 +51,10 @@ const Demo2Hero2 = () => {
 							{/* Advantages List */}
 
 							<div>
-								<button type='button' class='btn bg-secondary'>
-									Book Now
+								<button type='button' class='btn bg-primary'>
+									<a href='https://book.housecallpro.com/book/Fix-My-Boat/771e1f703d06486fb2f339393a20388f?attribution=getstarted'>
+										Book Now
+									</a>
 								</button>
 							</div>
 						</div>
@@ -64,6 +67,7 @@ const Demo2Hero2 = () => {
 								className='img-fluid'
 								src='/images/phone-mock.png'
 								alt='hero-image'
+								height='700'
 							/>
 						</div>
 					</div>
@@ -85,4 +89,4 @@ const Demo2Hero2 = () => {
 	)
 }
 
-export default Demo2Hero2
+export default Hero
