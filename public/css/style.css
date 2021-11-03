@@ -876,6 +876,9 @@ body {
 .bg-tra-yellow {
 	background: rgba(255, 179, 12, 0.08);
 }
+.bg-tra-volt {
+	background: rgba(206, 255, 0, 1);
+}
 
 /*------------------------------------------*/
 /*  Gradient Background Colors
@@ -953,8 +956,12 @@ body {
 	background-image: url(../images/bg-03.jpg);
 }
 .bg-04 {
-	background-image: url(../images/bg-04.jpg);
+	background-image: url(../images/bg-add-feature.png);
 }
+
+/* .bg-04 {
+	background-image: url(../images/bg-04.jpg);
+} */
 /* .bg-05 { background-image: url(../images/bg-05.jpg); } */
 /* .bg-06 { background-image: url(../images/bg-06.jpg); } */
 /* .bg-07 { background-image: url(../images/bg-07.jpg); } */

@@ -14,6 +14,33 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 992px) and (max-width: 1199.95px) {
+	/*------------------------------------------*/
+	/*  App Feature
+  	/*------------------------------------------*/
+
+	.appfeature-left {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.appfeature-right {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.appfeature-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.appfeature-box span {
+		display: flex;
+		align-items: center;
+	}
+	.appfeature-box h3 {
+		text-align: center;
+	}
 	.pb-200 {
 		padding-bottom: 180px;
 	}
@@ -1504,6 +1531,49 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 768px) and (max-width: 991.95px) {
+	/*------------------------------------------*/
+	/*  APP fEATURE
+  /*------------------------------------------*/
+
+	.appfeature-main {
+		flex-direction: column;
+	}
+	.appfeature-left {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-right: 0;
+	}
+	.appfeature-right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.appfeature-box {
+		display: flex;
+
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.appfeature-box span {
+		display: flex;
+		justify-content: center;
+		padding: 10px 0;
+	}
+	.appfeature-box h3 {
+		display: flex;
+		justify-content: center;
+	}
+	.appfeature-center {
+		display: none;
+	}
+
+	.appfeature-box span {
+		padding: 20px 0;
+	}
+
 	/*------------------------------------------*/
 	/*  BASE
   /*------------------------------------------*/
@@ -5470,6 +5540,40 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 480px) and (max-width: 767.95px) {
+	.appfeature-main-wrapper {
+		border: solid purple;
+	}
+	.appfeature-main {
+		display: flex;
+
+		flex-direction: column;
+		justify-content: space-evenly;
+		height: 100%;
+	}
+
+	.appfeature-left {
+	}
+	.appfeature-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.appfeature-box span {
+		padding: 10px 0;
+	}
+
+	.appfeature-box h3 {
+		padding: 10px 0;
+	}
+
+	.appfeature-center {
+		display: none;
+	}
+
+	.appfeature-right {
+	}
+
 	.ts-0 {
 		padding-top: 80px;
 	}
@@ -14075,4 +14179,8 @@
 		bottom: 20px;
 		right: 10px;
 	}
+
+	/*------------------------------------------*/
+	/* 		App Feature Section
+	/*------------------------------------------*/
 }

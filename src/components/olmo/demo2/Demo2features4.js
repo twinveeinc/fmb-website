@@ -12,14 +12,10 @@ const Demo2features4 = () => {
 							<h2 className='h2-md'>We’re Better. Here’s Why…</h2>
 							{/* Text */}
 
-							<button type='button' class='outline-primary'>
-								Primary
-							</button>
-
 							<p className='text-purple-600'>
-								Aliquam a augue suscipit, luctus neque purus
-								ipsum neque dolor primis a libero tempus,
-								blandit and cursus varius and magnis sapien
+								The first National Mobile Marine Service Company
+								offering boat repairs and service utilizing an
+								on-demand web-based platform
 							</p>
 						</div>
 					</div>
