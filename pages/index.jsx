@@ -15,6 +15,7 @@ import Hero from '@components/hero/Hero'
 import Demo2newsletter2 from '../src/components/olmo/demo2/Demo2newsletter2'
 import ShareFiles from '../src/components/ShareFiles'
 import CounterWidget from '@components/counterWidget'
+
 import Layout from '../src/layout/Layout'
 
 const Demo2 = () => {
@@ -23,7 +24,7 @@ const Demo2 = () => {
 			<Hero />
 			{/* Counter Widget */}
 			<CounterWidget />
-			{/* <Demo2features4 />
+			<Demo2features4 />
 			<Demo2content5 />
 			<ShareFiles flexible />
 			<hr className='divider' />
@@ -42,7 +43,7 @@ const Demo2 = () => {
 			<Blogs />
 			<hr className='divider' />
 			<Demo2newsletter2 />
-			<hr className='divider' /> */}
+			<hr className='divider' />
 		</Layout>
 	)
 }
