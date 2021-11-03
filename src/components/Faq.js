@@ -28,7 +28,7 @@ const Faq = () => {
                 <div className="question wow fadeInUp">
                   {/* Question */}
                   <h5 className="h5-md">
-                    Can I see OLMO in action before purchasing?
+                    Can I see FMB in action before purchasing?
                   </h5>
                   {/* Answer */}
                   <p className="p-lg">

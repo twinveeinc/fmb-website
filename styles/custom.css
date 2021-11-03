@@ -55,3 +55,95 @@
 .text-volt {
 	color: #ceff00;
 }
+
+/*------------------------------------------*/
+/* 		App Feature Section
+/*------------------------------------------*/
+
+.appfeature-main-wrapper {
+	display: flex;
+}
+.appfeature-main {
+	display: flex;
+
+	justify-content: space-evenly;
+}
+
+.appfeature-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	/* padding-right: 20px; */
+}
+
+.appfeature-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	/* padding-left: 20px; */
+}
+
+.appfeature-center > img {
+	position: relative;
+	top: 60px;
+	height: 50rem;
+	padding: 0;
+	margin: 0;
+}
+.appfeature-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.appfeature-box p {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Poppins', Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.appfeature-box h3 {
+	color: white;
+	font-family: 'Poppins', Sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+	line-height: 38px;
+}
+
+.appfeature-box span {
+	padding: 10px 0;
+}
+
+/* App Feature Left */
+
+.mock1 {
+	bottom: -198px;
+	left: 0px;
+	height: auto;
+	width: 30em;
+}
+
+.appfeature-icon {
+	color: white;
+	font-size: 2rem;
+}
+/* Test Blocks */
+
+.test-red {
+	border: solid red;
+}
+
+.test-blue {
+	border: solid rgb(8, 4, 231);
+}
+
+.test-green {
+	border: solid rgb(1, 61, 6);
+}
+
+.test-orange {
+	border: solid rgb(211, 105, 6);
+}
