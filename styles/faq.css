@@ -1,0 +1,29 @@
+.faq-header {
+	background-image: url(http://getyourezfill.com/wp-content/uploads/2021/08/faq.png);
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	/* z-index: -1; */
+}
+
+.faq-header-textoverlay {
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+}
+
+.faq-header-textoverlay h1 {
+	color: white;
+	font-size: 3rem;
+}
+
+.faq-overlay-subtag {
+	color: white;
+	font-size: 2rem;
+}

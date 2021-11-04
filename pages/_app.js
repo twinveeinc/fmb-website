@@ -14,6 +14,7 @@ function MyApp({Component, pageProps}) {
 		setPreloader(false)
 		if (typeof window !== 'undefined') {
 			window.WOW = require('wowjs')
+			require('bootstrap/dist/js/bootstrap')
 		}
 		new WOW.WOW().init()
 	}, [])

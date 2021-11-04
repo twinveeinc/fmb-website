@@ -9,10 +9,15 @@
   Tags: Responsive, HTML5, JThemes, One Page, Landing, Software, Mobile App, SaaS, Startup, Creative, Freelancers, Digital Product
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
+
 /* ==========================================================================
   01. GENERAL & BASIC STYLES
   =========================================================================== */
 
+* {
+	font-family: 'Poppings', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 html {
 	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
@@ -1077,7 +1082,7 @@ h4,
 h5,
 h6 {
 	color: #2f353e;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Poppings', sans-serif;
 	font-weight: 500;
 	letter-spacing: -0.75px;
 }
@@ -1171,6 +1176,9 @@ h2.h2-lg {
 h2.h2-xl {
 	font-size: 3.75rem;
 } /* 60px */
+h2.h2-xxl {
+	font-size: 5rem;
+} /* 60px */
 
 h2.h2-title-xs {
 	font-size: 4.0625rem;
@@ -1208,6 +1216,15 @@ h2.h2-title-xl {
 .rtl-direction h5.h5-xl {
 	font-size: 1.75rem;
 } /* 28px */
+
+/*------------------------------------------*/
+/*  TAG LINE
+/*------------------------------------------*/
+.tagline {
+	font-size: 88px;
+	line-height: 105px;
+	font-weight: 700;
+}
 
 /*------------------------------------------*/
 /*  PARAGRAPHS
@@ -8095,6 +8112,7 @@ img.footer-logo {
 
 #faqs-page {
 	background-image: url(../images/faqs-page.jpg);
+	background: #ceff00;
 }
 
 /*------------------------------------------*/
@@ -8240,4 +8258,8 @@ img.footer-logo {
 
 nav a#pull {
 	display: none;
+}
+
+.btn btnCustomHover {
+	background: red;
 }

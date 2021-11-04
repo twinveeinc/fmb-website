@@ -130,6 +130,18 @@
 	color: white;
 	font-size: 2rem;
 }
+
+/*------------------------------------------*/
+/* 		HowItWorks Section
+/*------------------------------------------*/
+
+.howitworks-wrapper {
+	margin: 200px 0;
+}
+
+.howitworks-wrapper {
+	text-align: center;
+}
 /* Test Blocks */
 
 .test-red {
@@ -146,4 +158,35 @@
 
 .test-orange {
 	border: solid rgb(211, 105, 6);
+}
+
+/*------------------------------------------*/
+/* 		Stories Section
+/*------------------------------------------*/
+
+.stories-wrapper {
+	margin: 100px 0;
+}
+
+.test {
+	padding-top: 180px;
+
+	height: 50vh;
+}
+
+.mobile-repair-watermark {
+	/* position: relative; */
+}
+
+.mobile-repair-watermark h1 {
+	font-size: 155px;
+
+	opacity: 0.1;
+	color: rgba(0, 0, 0, 0.192);
+}
+
+@media (max-width: 980px) {
+	.mobile-repair-watermark h1 {
+		display: none;
+	}
 }

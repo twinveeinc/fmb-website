@@ -2,7 +2,7 @@ const Demo2content5 = () => {
 	return (
 		<section
 			id='content-5'
-			className='content-5 ws-wrapper content-section division'
+			className='content-5 ws-wrapper content-section division pt-100'
 		>
 			<div className='container'>
 				<div className='content-5-wrapper bg-whitesmoke'>
