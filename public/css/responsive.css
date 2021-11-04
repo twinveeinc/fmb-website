@@ -3997,6 +3997,24 @@
 	.terms-box h5 {
 		margin-bottom: 25px;
 	}
+
+	/*------------------------------------------*/
+	/* 		FAQ Section
+	/*------------------------------------------*/
+	.faq-header {
+		height: 400px;
+	}
+
+	.faq-header-textoverlay h1 {
+		color: white;
+		font-size: 2rem;
+	}
+
+	.faq-overlay-subtag {
+		color: white;
+		font-size: 1rem;
+		text-align: center;
+	}
 }
 
 /* ------------------------------------------------------------------------ */
@@ -5532,6 +5550,23 @@
 	.terms-box,
 	.terms-box h5 {
 		margin-bottom: 25px;
+	}
+	/*------------------------------------------*/
+	/* 		FAQ Section
+	/*------------------------------------------*/
+	.faq-header {
+		height: 400px;
+	}
+
+	.faq-header-textoverlay h1 {
+		color: white;
+		font-size: 2rem;
+	}
+
+	.faq-overlay-subtag {
+		color: white;
+		font-size: 1rem;
+		text-align: center;
 	}
 }
 
@@ -7091,6 +7126,23 @@
 	}
 	.terms-box h5 {
 		margin-bottom: 15px;
+	}
+	/*------------------------------------------*/
+	/* 		FAQ Section
+	/*------------------------------------------*/
+	.faq-header {
+		height: 400px;
+	}
+
+	.faq-header-textoverlay h1 {
+		color: white;
+		font-size: 2rem;
+	}
+
+	.faq-overlay-subtag {
+		color: white;
+		font-size: 1rem;
+		text-align: center;
 	}
 }
 
@@ -9428,6 +9480,23 @@
 		height: 38px;
 		bottom: 25px;
 		right: 10px;
+	}
+	/*------------------------------------------*/
+	/* 		FAQ Section
+	/*------------------------------------------*/
+	.faq-header {
+		height: 400px;
+	}
+
+	.faq-header-textoverlay h1 {
+		color: white;
+		font-size: 2rem;
+	}
+
+	.faq-overlay-subtag {
+		color: white;
+		font-size: 1rem;
+		text-align: center;
 	}
 }
 
@@ -11807,6 +11876,23 @@
 		bottom: 20px;
 		right: 10px;
 	}
+	/*------------------------------------------*/
+	/* 		FAQ Section
+	/*------------------------------------------*/
+	.faq-header {
+		height: 400px;
+	}
+
+	.faq-header-textoverlay h1 {
+		color: white;
+		font-size: 2rem;
+	}
+
+	.faq-overlay-subtag {
+		color: white;
+		font-size: 1rem;
+		text-align: center;
+	}
 }
 
 /* ------------------------------------------------------------------------ */
@@ -14183,4 +14269,22 @@
 	/*------------------------------------------*/
 	/* 		App Feature Section
 	/*------------------------------------------*/
+
+	/*------------------------------------------*/
+	/* 		FAQ Section
+	/*------------------------------------------*/
+	.faq-header {
+		height: 400px;
+	}
+
+	.faq-header-textoverlay h1 {
+		color: white;
+		font-size: 2rem;
+	}
+
+	.faq-overlay-subtag {
+		color: white;
+		font-size: 1rem;
+		text-align: center;
+	}
 }

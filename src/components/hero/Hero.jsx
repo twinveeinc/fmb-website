@@ -1,20 +1,19 @@
 const Hero = () => {
 	return (
-		<section id='hero-2' className='bg-scroll hero-section division  '>
-			<div className='container'>
-				<div className='row d-flex align-items-center'>
+		<section id='hero-2' className='bg-scroll hero-section division'>
+			<div className='container  test '>
+				<div className='row d-flex align-items-center '>
 					{/* HERO TEXT */}
-					<div className='col-md-7 col-lg-6 order-first order-md-2'>
+					<div className='col-md-7 col-lg-6 order-first  order-md-2'>
 						<div className='hero-2-txt white-color wow fadeInLeft'>
 							{/* Title */}
-							<h2 className='h2-xl storm-color'>
-								Repair, Service, Fix Where Ever , When Ever
+							<h2 className='storm-color tagline'>
+								On Demand Mobile Boat Repair
 							</h2>
 							{/* Text */}
 							<p className='p-lg storm-color'>
-								On Demand Mobile Boat Repair At your Home,
-								Dockside, or Marina Convenient, Friendly, Fair
-								and Effective.
+								At your Home, Dockside, or Marina Fast,
+								Friendly, and Fair Service
 							</p>
 							{/* STORE BADGES */}
 							<div className='stores-badge'>
@@ -51,7 +50,10 @@ const Hero = () => {
 							{/* Advantages List */}
 
 							<div>
-								<button type='button' class='btn bg-primary'>
+								<button
+									type='button'
+									class='btn bg-primary mt-10'
+								>
 									<a href='https://book.housecallpro.com/book/Fix-My-Boat/771e1f703d06486fb2f339393a20388f?attribution=getstarted'>
 										Book Now
 									</a>
@@ -62,9 +64,9 @@ const Hero = () => {
 					{/* END HERO TEXT */}
 					{/* HERO IMAGE */}
 					<div className='col-md-5 col-lg-6 order-last order-md-2'>
-						<div className='hero-2-img pc-30 wow fadeInRight pt-4'>
+						<div className='hero-2-img pc-30 wow fadeInRight pt-5 '>
 							<img
-								className='img-fluid'
+								className='img-fluid '
 								src='/images/phone-mock.png'
 								alt='hero-image'
 								height='700'
@@ -85,6 +87,9 @@ const Hero = () => {
 					/>
 				</svg>
 			</div> */}
+			<div className='mobile-repair-watermark'>
+				<h1 className='d-flex justify-content-center'>MOBILE REPAIR</h1>
+			</div>
 		</section>
 	)
 }

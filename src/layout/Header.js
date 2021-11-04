@@ -131,7 +131,7 @@ const Header = ({
 								<li className='nl-simple'>
 									<Link
 										href={`${
-											singlePage ? '/faqs2' : '#faqs-2'
+											singlePage ? '/faqs' : '/faqs'
 										}`}
 									>
 										FAQs
@@ -210,9 +210,7 @@ const Header = ({
 												: 'btn-tra-white blue-hover'
 										} last-link`}
 									>
-										{getStartText
-											? 'Get Started'
-											: "Let's Started"}
+										{getStartText ? 'Book Now' : 'Book Now'}
 									</a>
 									{/* </Link> */}
 								</li>

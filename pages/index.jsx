@@ -18,16 +18,18 @@ import CounterWidget from '@components/counterWidget'
 
 import Layout from '../src/layout/Layout'
 import AppFeatures from '@components/app/AppFeatures'
+import HowItWorks from '@components/howitworks/HowItWorks'
 
 const Demo2 = () => {
 	return (
 		<Layout navLight whiteLogo navHoverColor='nav-violet-red-hover'>
 			<Hero />
 			{/* Counter Widget */}
-			<CounterWidget />
+			{/* <CounterWidget /> */}
 			{/* <Demo2features4 /> */}
+			<HowItWorks />
 			<AppFeatures />
-			{/* <Demo2content5 /> */}
+			<Demo2content5 />
 			{/* <ShareFiles flexible /> */}
 			{/* <hr className='divider' /> */}
 			{/* <Faq /> */}
@@ -35,7 +37,7 @@ const Demo2 = () => {
 			{/* <Demo2content3 /> */}
 			{/* <Demo2content10 /> */}
 			{/* <Demo2content1 /> */}
-			{/* <CustomersReviews /> */}
+			<CustomersReviews />
 			{/* <Demo2brands2 /> */}
 			{/* <hr className='divider' /> */}
 			{/* <Demo2content6 /> */}
