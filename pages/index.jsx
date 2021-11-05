@@ -1,3 +1,4 @@
+import Hero1 from '@components/hero/Hero1'
 import Blogs from '../src/components/Blogs'
 import CustomersReviews from '../src/components/CustomersReviews'
 import Faq from '../src/components/Faq'
@@ -23,7 +24,8 @@ import HowItWorks from '@components/howitworks/HowItWorks'
 const Demo2 = () => {
 	return (
 		<Layout navLight whiteLogo navHoverColor='nav-violet-red-hover'>
-			<Hero />
+			{/* <Hero /> */}
+			<Hero1 />
 			{/* Counter Widget */}
 			{/* <CounterWidget /> */}
 			{/* <Demo2features4 /> */}

@@ -14,6 +14,58 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 992px) and (max-width: 1199.95px) {
+	.hero-home-container {
+		margin-top: 120px;
+		height: calc(100vh - 120px);
+		background: #ceff00;
+		border: solid red;
+	}
+
+	.container-hero {
+		height: 90vh;
+		padding-top: 20px;
+	}
+
+	.container-hero-wrapper {
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.hero-left {
+		height: 100%;
+		border: solid green;
+	}
+
+	.hero-right {
+		height: 100%;
+		background: orange;
+	}
+	.hero-phone-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		height: 100%;
+	}
+	.hero-phone-mockup {
+		height: 500px;
+		width: auto;
+		padding-top: 20px;
+	}
+
+	.hero-mobile-cta {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		color: white;
+	}
+
+	.hero-mobile-cta a {
+		color: white;
+	}
+
 	/*------------------------------------------*/
 	/*  App Feature
   	/*------------------------------------------*/
@@ -1531,6 +1583,61 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 768px) and (max-width: 991.95px) {
+	.hero-home-container {
+		margin-top: 78px;
+		height: 92vh;
+		background: #ceff00;
+	}
+
+	.container-hero {
+		height: 90vh;
+		padding-top: 20px;
+	}
+
+	.container-hero-wrapper {
+		display: flex;
+		height: 100%;
+		justify-content: space-between;
+
+		max-width: 980px;
+	}
+
+	.hero-left {
+		height: 100%;
+		width: 60%;
+	}
+
+	.hero-right {
+		height: 100%;
+		width: 40%;
+	}
+	.hero-phone-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	.hero-phone-mockup {
+		/* padding-top: 20px; */
+	}
+
+	.hero-mobile-cta {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		padding: 0 10px;
+	}
+	.hero-mobile-cta h1 {
+		font-size: 68px;
+		text-align: center;
+	}
+
+	.hero-mobile-cta a {
+		color: white;
+	}
+
 	/*------------------------------------------*/
 	/*  APP fEATURE
   /*------------------------------------------*/
@@ -4022,6 +4129,57 @@
 /* ------------------------------------------------------------------------ */
 
 @media (max-width: 767px) {
+	.hero-home-container {
+		margin-top: 78px;
+		height: 92vh;
+		background: #ceff00;
+	}
+
+	.container-hero {
+		height: 90vh;
+		padding-top: 20px;
+	}
+
+	.container-hero-wrapper {
+		height: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.hero-left {
+		height: 30%;
+		/* background: green; */
+	}
+
+	.hero-right {
+		height: 70%;
+		/* background: orange; */
+	}
+	.hero-phone-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		height: 100%;
+	}
+	.hero-phone-mockup {
+		height: 500px;
+		width: auto;
+		padding-top: 20px;
+	}
+
+	.hero-mobile-cta {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		color: white;
+	}
+
+	.hero-mobile-cta a {
+		color: white;
+	}
+
 	.wave-shape-bottom {
 		bottom: -2px;
 	}
@@ -6192,6 +6350,57 @@
 	/*.  HERO  
   /*------------------------------------------*/
 
+	.hero-home-container {
+		margin-top: 78px;
+		height: 92vh;
+		background: #ceff00;
+	}
+
+	.container-hero {
+		height: 90vh;
+		padding-top: 20px;
+	}
+
+	.container-hero-wrapper {
+		height: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.hero-left {
+		height: 30%;
+		/* background: green; */
+	}
+
+	.hero-right {
+		height: 70%;
+		/* background: orange; */
+	}
+	.hero-phone-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		height: 100%;
+	}
+	.hero-phone-mockup {
+		height: 500px;
+		width: auto;
+		padding-top: 20px;
+	}
+
+	.hero-mobile-cta {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		color: white;
+	}
+
+	.hero-mobile-cta a {
+		color: white;
+	}
+
 	/* Hero Brands */
 	.hero-brands p {
 		margin-bottom: 25px;
@@ -6220,6 +6429,7 @@
 	}
 	.hero-2-txt h2 {
 		margin-bottom: 25px;
+		font-size: 2rem;
 	}
 	.hero-2-txt p.p-xl {
 		font-size: 1.125rem;
