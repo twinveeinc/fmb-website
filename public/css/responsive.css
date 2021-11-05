@@ -90,6 +90,7 @@
 	}
 	.appfeature-box {
 		display: flex;
+
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -5742,7 +5743,6 @@
 
 @media (min-width: 480px) and (max-width: 767.95px) {
 	.appfeature-main-wrapper {
-		border: solid purple;
 	}
 	.appfeature-main {
 		display: flex;
@@ -5756,6 +5756,7 @@
 	}
 	.appfeature-box {
 		display: flex;
+
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -9796,6 +9797,23 @@
 		font-weight: 700;
 		line-height: 10px;
 		padding-top: 3px;
+	}
+
+	/*------------------------------------------*/
+	/* 		AppFeatures Section
+	/*------------------------------------------*/
+
+	.appfeature-center {
+		display: none;
+	}
+
+	
+	.appfeature-box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: solid red;
+		flex-direction: column;
 	}
 }
 
@@ -14655,7 +14673,9 @@
 	/*------------------------------------------*/
 	/* 		App Feature Section
 	/*------------------------------------------*/
-
+	.appfeature-center img {
+		display: none;
+	}
 	/*------------------------------------------*/
 	/* 		FAQ Section
 	/*------------------------------------------*/

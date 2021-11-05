@@ -83,19 +83,14 @@
 	/* padding-left: 20px; */
 }
 
-.appfeature-center > img {
+.appfeature-center img {
 	position: relative;
 	top: 60px;
 	height: 50rem;
 	padding: 0;
 	margin: 0;
 }
-.appfeature-box {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
+
 .appfeature-box p {
 	text-align: center;
 	color: #ffffff;

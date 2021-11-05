@@ -36,7 +36,7 @@ function AppFeatures() {
 						</p>
 					</div>
 				</div>
-				<div className='appfeature-center test2'>
+				<div className='appfeature-center '>
 					<img src='./images/phone-placeholder-mock1.png' alt='' />
 				</div>
 				<div className='appfeature-right wow fadeInRight'>
