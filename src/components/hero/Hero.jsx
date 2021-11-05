@@ -1,13 +1,13 @@
 const Hero = () => {
 	return (
 		<section id='hero-2' className='bg-scroll hero-section division'>
-			<div className='container  test '>
+			<div className='container'>
 				<div className='row d-flex align-items-center '>
 					{/* HERO TEXT */}
 					<div className='col-md-7 col-lg-6 order-first  order-md-2'>
-						<div className='hero-2-txt white-color wow fadeInLeft'>
+						<div className='hero-2-txt storm-color wow fadeInLeft'>
 							{/* Title */}
-							<h2 className='storm-color tagline'>
+							<h2 className='tagline'>
 								On Demand Mobile Boat Repair
 							</h2>
 							{/* Text */}
@@ -15,39 +15,6 @@ const Hero = () => {
 								At your Home, Dockside, or Marina Fast,
 								Friendly, and Fair Service
 							</p>
-							{/* STORE BADGES */}
-							<div className='stores-badge'>
-								{/* AppStore */}
-								{/* <a href='#' className='store'>
-									<img
-										className='appstore'
-										src='/images/appstore.png'
-										alt='appstore-badge'
-									/>
-								</a>
-								{/* Google Play */}
-								{/* <a href='#' className='store'>
-									<img
-										className='googleplay'
-										src='/images/googleplay.png'
-										alt='googleplay-badge'
-									/>
-								</a>  */}
-								{/* Aamazon Market 
-                                               <a href="#" class="store">
-                                                    <img class="amazon" src="/images/amazon.png" alt="amazon-badge" />
-                                               </a>  */}
-								{/* Mac AppStore 
-                                               <a href="#" class="store">
-                                                    <img class="mac-appstore" src="/images/macstore.png" alt="macstore-badge" />
-                                               </a> */}
-								{/* Microsoft Store  
-                                               <a href="#" class="store">
-                                                    <img class="microsoft" src="/images/microsoft.png" alt="microsoft-badge" />
-                                               </a> */}
-							</div>
-							{/* END STORE BADGES */}
-							{/* Advantages List */}
 
 							<div>
 								<button

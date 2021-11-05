@@ -4011,9 +4011,10 @@ p.terms-txt a,
 	position: relative;
 	z-index: 3;
 	/* background-image: url(../images/hero-2.jpg); */
-	padding-top: 150px;
+	/* padding-top: 150px; */
 	background-color: #ceff00;
 	margin-bottom: 50px;
+	height: 100vh;
 }
 
 .hero-2-txt {
@@ -8262,4 +8263,63 @@ nav a#pull {
 
 .btn btnCustomHover {
 	background: red;
+}
+
+.hero-home-container {
+	margin-top: 78px;
+	height: 92vh;
+	background: #ceff00;
+}
+
+.container-hero {
+	height: 90vh;
+	padding-top: 20px;
+}
+
+.container-hero-wrapper {
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+
+	max-width: 980px;
+}
+
+.hero-left {
+	height: 100%;
+	width: 60%;
+}
+
+.hero-right {
+	height: 100%;
+	width: 40%;
+}
+.hero-phone-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.hero-phone-mockup {
+	height: 600px;
+	max-width: 600px;
+}
+
+.hero-mobile-cta {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	height: 100%;
+	padding: 0 10px;
+}
+
+
+.hero-mobile-cta h1 {
+	font-size: 88px;
+	font-weight: 700;
+	line-height: 105px;
+}
+
+.hero-mobile-cta a {
+	color: white;
 }
