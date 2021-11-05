@@ -1,12 +1,12 @@
 /*
-  Template Name: OLMO - Software, App, SaaS & Startup Landing Pages Pack
-  Theme URL: https://themeforest.net/user/jthemes
-  Description: OLMO - Software, App, SaaS & Startup Landing Pages Pack
-  Author: JThemes
-  Author URL: https://themeforest.net/user/jthemes
+  Template Name: Fix My Boat - A Mobile marine repair services
+  Theme URL: https://www.fixmyboatusa.com
+  Description: FMB - Software, App, SaaS & Startup Landing Pages Pack
+  Author: Bruno Paula
+  Author URL: https://www.brunopaula.com
   Version: 1.0.0
-  Website: www.jthemes.com
-  Tags: Responsive, HTML5, JThemes, One Page, Landing, Software, Mobile App, SaaS, Startup, Creative, Freelancers, Digital Product
+  Website: www.fixmyboatusa.com
+  Tags: Responsive, HTML5, JThemes, One Page, Landing, Software, Mobile App, SaaS, Startup,
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
@@ -8313,7 +8313,6 @@ nav a#pull {
 	padding: 0 10px;
 }
 
-
 .hero-mobile-cta h1 {
 	font-size: 88px;
 	font-weight: 700;
@@ -8322,4 +8321,51 @@ nav a#pull {
 
 .hero-mobile-cta a {
 	color: white;
+}
+
+/* ==========================================================================
+  28. APP FEATURE
+  ========================================================================== */
+
+.appfeature-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.appfeature-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.appfeature-box {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.appfeature-box span {
+	display: flex;
+	align-items: center;
+}
+.appfeature-box h3 {
+	text-align: center;
+}
+.pb-200 {
+	padding-bottom: 180px;
+}
+.pb-190 {
+	padding-bottom: 170px;
+}
+.pb-180 {
+	padding-bottom: 160px;
+}
+.pb-170 {
+	padding-bottom: 150px;
+}
+.pb-160 {
+	padding-bottom: 140px;
+}
+.pb-150 {
+	padding-bottom: 130px;
 }
