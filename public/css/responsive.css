@@ -9732,6 +9732,71 @@
 		font-size: 1rem;
 		text-align: center;
 	}
+	.hero-home-container {
+		margin-top: 78px;
+		height: 92vh;
+		background: #ceff00;
+	}
+
+	.container-hero {
+		height: 90vh;
+		padding-top: 20px;
+	}
+
+	.container-hero-wrapper {
+		height: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hero-left {
+		height: 40%;
+		width: 100%;
+		/* background: green; */
+	}
+
+	.hero-right {
+		height: 60%;
+		/* background: orange; */
+	}
+	.hero-phone-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		height: 100%;
+	}
+	.hero-phone-mockup {
+		height: 450px;
+		width: auto;
+		padding-top: 20px;
+	}
+
+	.hero-mobile-cta {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+		color: white;
+		padding-top: 40px;
+	}
+
+	.hero-mobile-cta a {
+		color: white;
+	}
+	.hero-mobile-cta p {
+		color: black;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.hero-mobile-cta h1 {
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 10px;
+		padding-top: 3px;
+	}
 }
 
 /* ------------------------------------------------------------------------ */
@@ -12188,9 +12253,10 @@
 		padding-top: 10px;
 	}
 	.hero-mobile-cta h1 {
-		font-size: 23px;
+		font-size: 1.8rem;
 		font-weight: 700;
-		line-height: 10px;
+		line-height: 28px;
+		text-align: center;
 	}
 
 	/* Hero Brands */
@@ -14668,9 +14734,10 @@
 		padding-top: 10px;
 	}
 	.hero-mobile-cta h1 {
-		font-size: 15px;
-		font-weight: 700;
-		line-height: 10px;
+		font-size: 17px;
+		font-weight: 100;
+		line-height: 25px;
+		text-align: center;
 	}
 
 	/* Hero Brands */
