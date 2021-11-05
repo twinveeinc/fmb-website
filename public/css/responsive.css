@@ -15,15 +15,15 @@
 
 @media (min-width: 992px) and (max-width: 1199.95px) {
 	.hero-home-container {
-		margin-top: 120px;
-		height: calc(100vh - 120px);
+		margin-top: 140px;
+		height: calc(100vh - 140px);
 		background: #ceff00;
 		border: solid red;
 	}
 
 	.container-hero {
 		height: 90vh;
-		padding-top: 20px;
+		/* padding-top: 20px; */
 	}
 
 	.container-hero-wrapper {
@@ -33,22 +33,22 @@
 	}
 
 	.hero-left {
-		height: 100%;
+		height: calc(100vh - 140px);
 		border: solid green;
 	}
 
 	.hero-right {
-		height: 100%;
+		height: calc(100vh - 140px);
 		background: orange;
 	}
 	.hero-phone-wrapper {
 		display: flex;
 		justify-content: center;
-		align-items: flex-start;
+		align-items: center;
 		height: 100%;
 	}
 	.hero-phone-mockup {
-		height: 500px;
+		height: 600px;
 		width: auto;
 		padding-top: 20px;
 	}
@@ -57,13 +57,24 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-start;
 		height: 100%;
 		color: white;
 	}
 
 	.hero-mobile-cta a {
 		color: white;
+	}
+
+	.hero-mobile-cta h1 {
+		font-size: 65px;
+		padding-bottom: 30px;
+	}
+	.hero-mobile-cta p {
+		padding-bottom: 30px;
+		display: flex;
+		align-self: flex-start;
+		color: red;
 	}
 
 	/*------------------------------------------*/
@@ -6368,12 +6379,12 @@
 	}
 
 	.hero-left {
-		height: 30%;
+		height: 40%;
 		/* background: green; */
 	}
 
 	.hero-right {
-		height: 70%;
+		height: 60%;
 		/* background: orange; */
 	}
 	.hero-phone-wrapper {
@@ -6383,7 +6394,7 @@
 		height: 100%;
 	}
 	.hero-phone-mockup {
-		height: 500px;
+		height: 450px;
 		width: auto;
 		padding-top: 20px;
 	}
@@ -6391,10 +6402,11 @@
 	.hero-mobile-cta {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: center;
 		height: 100%;
 		color: white;
+		padding-top: 40px;
 	}
 
 	.hero-mobile-cta a {
@@ -6403,7 +6415,8 @@
 
 	/* Hero Brands */
 	.hero-brands p {
-		margin-bottom: 25px;
+		margin: 25px;
+		text-align: center;
 	}
 
 	/* Hero-1 */
