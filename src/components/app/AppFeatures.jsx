@@ -35,6 +35,7 @@ function AppFeatures() {
 							whenever you need it.
 						</p>
 					</div>
+					
 				</div>
 				<div className='appfeature-center '>
 					<img src='./images/phone-placeholder-mock1.png' alt='' />

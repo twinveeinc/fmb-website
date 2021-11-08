@@ -37,14 +37,16 @@ const CustomersReviews = () => {
 					<div className='col-lg-10 col-xl-8 '>
 						<div className='section-title title-01 mb-70'>
 							{/* Title */}
-							<h2 className='h2-md '>
-								Stories From Our Customers
-							</h2>
+							<h2 className='h2-md '>Customer Satisfaction</h2>
 							{/* Text */}
 							<p className='p-xl'>
-								Aliquam a augue suscipit, luctus neque purus
-								ipsum neque dolor primis a libero tempus,
-								blandit and cursus varius and magnis sapien
+								Customer satisfaction is vitally important to
+								the health of our growing company. These are not
+								cheap marketing words. Our core belief ensures
+								your boat is repaired and operational to the
+								highest standards. If after your service, you
+								are unhappy with something, call our customer
+								hot line and we will make it right.
 							</p>
 						</div>
 					</div>

@@ -1585,6 +1585,21 @@
 	.terms-box h5 {
 		margin-bottom: 25px;
 	}
+
+	/*------------------------------------------*/
+	/*  HERO WATERMARK
+	/*------------------------------------------*/
+	.hero-watermark {
+		bottom: -5px;
+	}
+
+	.hero-watermark h1 {
+		color: #0000000f;
+		font-family: 'Poppins', Sans-serif;
+		font-size: 90px;
+		font-weight: 600;
+		line-height: 170px;
+	}
 }
 
 /* ------------------------------------------------------------------------ */
@@ -4130,6 +4145,21 @@
 		color: white;
 		font-size: 1rem;
 		text-align: center;
+	}
+
+	/*------------------------------------------*/
+	/*  HERO WATERMARK
+	/*------------------------------------------*/
+	.hero-watermark {
+		bottom: -70px;
+	}
+
+	.hero-watermark h1 {
+		color: #0000000f;
+		font-family: 'Poppins', Sans-serif;
+		font-size: 90px;
+		font-weight: 600;
+		line-height: 170px;
 	}
 }
 
@@ -7379,6 +7409,20 @@
 		font-size: 1rem;
 		text-align: center;
 	}
+	/*------------------------------------------*/
+	/*  HERO WATERMARK
+	/*------------------------------------------*/
+	.hero-watermark {
+		bottom: -80px;
+	}
+
+	.hero-watermark h1 {
+		color: #0000000f;
+		font-family: 'Poppins', Sans-serif;
+		font-size: 70px;
+		font-weight: 600;
+		line-height: 170px;
+	}
 }
 
 /* ------------------------------------------------------------------------ */
@@ -8554,7 +8598,7 @@
 
 	/*------------------------------------------*/
 	/*  CONTENT
-  /*------------------------------------------*/
+  	/*------------------------------------------*/
 
 	/* About */
 	#about-2 {
@@ -9807,13 +9851,27 @@
 		display: none;
 	}
 
-	
 	.appfeature-box {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		border: solid red;
 		flex-direction: column;
+	}
+
+	/*------------------------------------------*/
+	/*  HERO WATERMARK
+	/*------------------------------------------*/
+	.hero-watermark {
+		bottom: -80px;
+	}
+
+	.hero-watermark h1 {
+		color: #0000000f;
+		font-family: 'Poppins', Sans-serif;
+		font-size: 60px;
+		font-weight: 600;
+		line-height: 170px;
 	}
 }
 
@@ -12297,6 +12355,20 @@
 	.hero-1-img {
 		padding: 0 5%;
 	}
+	/*------------------------------------------*/
+	/*  HERO WATERMARK
+	/*------------------------------------------*/
+	.hero-watermark {
+		bottom: -80px;
+	}
+
+	.hero-watermark h1 {
+		color: #0000000f;
+		font-family: 'Poppins', Sans-serif;
+		font-size: 50px;
+		font-weight: 600;
+		line-height: 170px;
+	}
 }
 
 /* ------------------------------------------------------------------------ */
@@ -14779,5 +14851,41 @@
 	}
 	.hero-1-img {
 		padding: 0 5%;
+	}
+	/*------------------------------------------*/
+	/*  HERO WATERMARK
+	/*------------------------------------------*/
+	.hero-watermark {
+		bottom: -89px;
+	}
+
+	.hero-watermark h1 {
+		color: #0000000a;
+		font-family: 'Poppins', Sans-serif;
+		font-size: 29px;
+		font-weight: 600;
+		line-height: 170px;
+	}
+
+	/*------------------------------------------*/
+	/*  FEATURE 2 SECTION
+	/*------------------------------------------*/
+	.feature2-section::before {
+		content: 'd';
+		background: #ceff00;
+		height: 100%;
+	}
+	.feature2-section {
+		padding: 20px 0;
+		background-image: url('http://getyourezfill.com/wp-content/uploads/2021/08/Home_GasStation.png');
+		background-position: center center;
+		background-blend-mode: overlay;
+		background-size: cover;
+	}
+	.section2-left h2 {
+		color: white;
+	}
+	.section2-left button a {
+		color: white;
 	}
 }

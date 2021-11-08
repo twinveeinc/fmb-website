@@ -33,6 +33,9 @@ const Hero1 = () => {
 							/>
 						</div>
 					</div>
+					<div className='hero-watermark'>
+						<h1>BOAT REPAIR</h1>
+					</div>
 				</div>
 			</div>
 		</section>

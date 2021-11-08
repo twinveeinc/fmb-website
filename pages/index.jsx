@@ -16,6 +16,7 @@ import Hero from '@components/hero/Hero'
 import Demo2newsletter2 from '../src/components/olmo/demo2/Demo2newsletter2'
 import ShareFiles from '../src/components/ShareFiles'
 import CounterWidget from '@components/counterWidget'
+import Feature2 from '@components/feature2'
 
 import Layout from '../src/layout/Layout'
 import AppFeatures from '@components/app/AppFeatures'
@@ -39,6 +40,7 @@ const Demo2 = () => {
 			{/* <Demo2content3 /> */}
 			{/* <Demo2content10 /> */}
 			{/* <Demo2content1 /> */}
+			<Feature2 />
 			<CustomersReviews />
 			{/* <Demo2brands2 /> */}
 			{/* <hr className='divider' /> */}
